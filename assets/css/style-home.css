@@ -1,0 +1,453 @@
+.navbar-brand {
+  font-family: "Jockey One", sans-serif;
+  font-weight: bold;
+}
+#testimonials {
+  padding: 30px 0; /* Add padding top and bottom */
+  overflow: hidden; /* Hide overflow content */
+  max-height: 100%;
+  height: 550px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+#testimonials-divider {
+  background-color: white;
+}
+.testimonial-divider-container{
+    height: 1px;
+}
+.heading-outline {
+  margin-top: -1%;
+  color: black;
+  text-shadow: 0px 0px 5.5px #474747;
+  text-align: center;
+  -webkit-text-stroke: 2px #474747;
+  paint-order: stroke fill;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #647e54;
+  color: #fff;
+}
+.body-ratings {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+  height: 450px;
+  max-height: 100%;
+}
+.header-buttons a {
+  margin-right: 10px;
+  background-color: #777;
+  color: #000000;
+  border: 2px solid #00000027;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header-buttons a {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons a i {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+/* Navbar styles */
+.navbar-custom {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: darkgreen;
+}
+/* Header styles */
+.header {
+  background-image: url("../img/Background.png");
+  background-size: 100% 100%;
+  background-position: center;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0;
+  object-fit: contain;
+}
+
+.header-logo {
+  margin-left: -5%;
+  max-width: 400px;
+  height: 350px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease; 
+  transform: perspective(600px) rotateX(0deg) rotateY(0deg);
+}
+
+.header-logo:hover {
+  transform: perspective(600px) rotateX(10deg) rotateY(10deg) scale(1.1);
+}
+
+.header-buttons {
+  margin-top: 20px;
+}
+.header-buttons a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #777;
+  color: #ffffff;
+  border: 2px solid #00000027;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header-buttons a i {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.header-buttons a.btn {
+  color: #fff;
+  border-color: #0000003d;
+  margin-bottom: 5%;
+}
+/* Testimonial card styles */
+.testimonial-card {
+  background-color: #a8df7c;
+  border: 10px solid #4cc858;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.993);
+  color: #333;
+  margin: 15px auto;
+  max-width: 450px;
+  position: relative;
+  margin-bottom: 5%;
+}
+.testimonial-card h5 {
+  font-weight: bold;
+}
+.testimonial-card p {
+  font-style: italic;
+  text-align: left;
+}
+.testimonial-card .author {
+  font-weight: bold;
+  text-align: left;
+}
+.testimonial-card .author-title {
+  font-size: 0.9rem;
+  text-align: left;
+  color: #555;
+}
+.testimonial-card .stars {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #ffd700;
+  text-shadow: 0px 0px 2px #000000;
+}
+.read-more {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  float: right;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  -webkit-text-stroke: 1px white;
+  font-weight: bold;
+  paint-order: stroke fill;
+}
+
+/* Footer styles */
+footer {
+  background-color: #8fe6eb;
+  font-family: "Josefin Slab", serif;
+  color: #716a6a;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* Custom CSS for responsive iframe */
+@media (max-width: 430px) {
+  #youtube-video .embed-responsive {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding-top: 56.25%;
+  }
+  #youtube-video .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .header-logo {
+    margin-left: -20%;
+  }
+}
+@media (max-width: 830px) {
+  #youtube-video .embed-responsive {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding-top: 56.25%;
+  }
+  #youtube-video .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .header-logo {
+    margin-left: -20%;
+  }
+}
+.heading-outline1 {
+  margin-top: -1%;
+  color: black;
+  text-shadow: 0px 0px 5.5px #474747;
+  text-align: center;
+  -webkit-text-stroke: 2px #474747;
+  paint-order: stroke fill;
+}
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 30px;
+  height: 40px;
+  background-color: transparent;
+  padding: 5px;
+}
+.carousel-control-prev img:focus,
+.carousel-control-next img:focus {
+  background-color: transparent;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 45%;
+  width: 59%;
+  height: 1%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 45%;
+  width: 59%;
+  height: 1%;
+}
+@media (max-width: 1272px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 45%;
+    width: 0%;
+    height: 1%;
+  }
+
+  #youtube-video .embed-responsive {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding-top: 56.25%;
+  }
+  #youtube-video .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 45%;
+    width: 20%;
+    height: 1%;
+  }
+}
+
+@media (max-width: 414px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 45%;
+    width: 0%;
+    height: 1%;
+  }
+}
+
+@media (max-width: 830px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 45%;
+    width: 0%;
+    height: 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    font-size: 0.9rem;
+  }
+  .testimonial-card h5 {
+    font-size: 1.2rem;  
+  }
+  .testimonial-card .author {
+    font-size: 0.8rem;  
+  }
+  .testimonial-card .author-title {
+    font-size: 0.7rem;  
+  }
+  .testimonial-card .stars {
+    font-size: 1.2rem;  
+  }
+  .modal-body strong {
+    font-size: 0.8rem;
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5%;
+  }
+  .modal-body p {
+    font-size: 0.8rem;  
+    text-align: left;
+    color: #333;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -10%;
+  }
+  .modal-dialog {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  .modal-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    max-width: 300px;
+    .modal-body strong {
+      font-size: 0.8rem;
+      text-align: left;
+      color: #333;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+  .modal-body strong {
+    font-size: 0.8rem;
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5%;
+  }
+  .modal-body p {
+    font-size: 0.8rem;  
+    text-align: left;
+    color: #333;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -5%;
+  }
+  .modal-dialog {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  .modal-content {
+    padding: 20px;
+  }
+}
+
+.modal-lg {
+  max-width: 800px;
+}
+
+.modal-body {
+  padding: 20px;
+  font-size: 0.9rem;  
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-body p {
+  font-size: 17px;  
+  text-align: left;
+  color: #333;
+  font-style: italic;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -5%;
+}
+.modal-body strong {
+  font-size: 17px;
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 5%;
+}
+.modal-backdrop {
+  display: none;
+}
+
+.modal-content {
+  background-color: #a8df7c;
+  border: 10px solid #4cc858;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    max-width: 80%;
+  }
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal.show {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.stars {
+  font-size: 1.5rem;  
+  color: #ffd700;
+  text-shadow: 0px 0px 2px #000000;
+  padding-left: 5%;
+}

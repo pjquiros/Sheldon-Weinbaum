@@ -1,0 +1,138 @@
+
+.navbar-brand {
+    font-family: "Jockey One", sans-serif;
+    font-weight: bold;
+}
+
+#testimonials {
+    padding: 30px 0;
+    overflow: hidden;
+    max-height: 100%;
+    height: 550px;
+}
+
+#testimonials-divider {
+    height: 5px;
+    background-color: white;
+}
+
+.heading-outline {
+    margin-top: -1%;
+    color: black;
+    text-shadow: 0px 0px 5.5;
+}
+.navbar-custom {
+    background-color: #ffffff; 
+  }
+  .navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: darkgreen;
+}
+body {
+    background-image: url("../img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    background-color: #647e54;
+}
+  
+  footer {
+    margin-top: auto;
+  }
+  footer {
+    background-color: #8fe6eb;
+    font-family: "Josefin Slab", serif;
+    color: #716a6a;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .contact-form textarea {
+    resize: none;
+    height: 200px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+  .contact-form {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 60px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+.input-contact textarea.form-control {
+    border: 2px solid #4CC858;
+    margin-bottom: 5%;
+}
+.contact-form h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+.contact-form button[type="submit"] {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #78956a;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"],  .contact-form input[type="Subject"], .contact-form textarea {
+    border: 2px solid #4CC858;
+    margin-bottom: 2%;
+  }
+
+.contact-form input,.contact-form textarea {
+    padding: 10px;
+    border: 2px solid #4CC858;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+.contact-form button[type="submit"]:hover {
+    background-color: #5c7251;
+}
+
+@media (max-width: 768px) {
+   .contact-form {
+        margin: 20px auto;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 414px) {
+   .contact-form {
+        margin: 10px auto;
+        padding: 30px;
+    }
+}
