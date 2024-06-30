@@ -7,16 +7,6 @@ Hey bai,
 
 Here’s the other website we need to recreate asap.
 
-CPanel details btw:
-
-Domain: weinbaumchildrensscience.com
-
-Username: weinbaumchildren
-
-Password: +AFHQVd7ohES
-
- 
-
 Kindly create the site with the below instructions:
 
 For the Homepage:
